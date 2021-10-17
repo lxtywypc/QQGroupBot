@@ -1,0 +1,358 @@
+﻿{
+  "RobotRoot": "E:\\Robot Data\\",
+      "Bin": "Bin\\",
+          "ImageData": "image\\",
+              "DLImage": "DownloadImage\\",
+                  "Blur": "Blur\\",
+                  "MakeGifDL": "MakeGif\\",
+                  "SearchAnimeDL": "SearchAnime\\",
+                  "SearchImageDL": "SearchImage\\",
+                      "A2d": "Ascii2d\\",
+                      "Snao": "Sausenao\\",
+                      "MakeMosaigu": "Mosaigu\\",
+              "GachaImage": "Gacha\\",
+          "RecData": "record\\",
+              "MusicData": "Music\\",
+      "CardData": "Card Data\\",
+          "[Game_data]": "",
+              "CardAccount": "AccountData",
+              "CardClass": "Class",
+              "CardSet": "SetData",
+              "ClassRate": "ClassRate",
+          "GameSets": "GameSets",
+      "CardImage": "Card Image\\",
+          "[Game_image]": "",
+              "Position": "Position",
+      "GroupData": "Group Data\\",
+          "[GroupNumber]": "",
+              "BanList": "Ban List\\",
+              "Event": "Event\\",
+              "GroupOptList": "Group Options\\",
+              "Log": "Log\\",
+              "VoteData": "Vote Data\\",
+                  "Agree": "Agree\\",
+                  "Disagree": "Disagree\\",
+                  "Voting": "Voting",
+              "GroupAccount": "GroupAccount",
+              "WelcomeData": "Welcome",
+              "BanWordsData": "BanWordsData",
+      "LikeData": "Like Data\\",
+      "MakeGif": "MakeGif\\",
+      "OptData": "Options List\\",
+      "Others": "Others\\",
+          "GroupNameParse": "GroupNameParse\\",
+      "PrivateData": "Private Data\\",
+      "spGroupData": "SpGroupData\\",
+      "Timer": "Timer\\",
+
+  "TimerInfo": "TimerInfo.json",
+  "Exist": "Exist",
+  "ErrorFile": "Error.txt",
+
+  "Host": 1006563514,
+  "BotQQ": 3454144732,
+  "TempGroup": 861233909,
+
+  "BanTime": [ 3600, 86400, 2592000, 0, 28800, 3600 ],
+  "VoteTime": 300,
+
+  "AT_QQ": "[@",
+  "IMAGE": "[pic,hash=",
+  "CodeEnd": "]",
+  "CodeSep": ",",
+  "CodeBegin": "[",
+
+  "YoutuAppID": "10221278",
+  "YoutuSecretID": "AKIDnPnwtsx6HF1g5FB8yayBByVqz82g2TZP",
+  "YoutuSecretKey": "juO1SmuoSq3WmmaBXdT7ya1EDzzpSs57",
+  "YoutuPornServer": "http://api.youtu.qq.com/youtu/imageapi/imageporn",
+  "YoutuQQ": "3454278848",
+  "LiveTime": 60,
+  "porn_th": 85,
+
+  "Symbol_rec": "%rec%",
+  "Symbol_img": "%img%",
+  "Symbol_end": ";",
+
+  "MAX_ORDER_SIZE": 24,
+  "MIN_ORDER_SIZE": 2,
+  "SEPMARK": "[] ",
+
+  "DetectBanWords": {
+    "corefile": "敏感词系统",
+    "orderlist": ["添加敏感词","删除敏感词","敏感词列表"],
+    "warningmsg": [
+      "未查询到敏感词列表",
+      "你已违反禁忌目录条例\n我将代表整合骑士对你降下天罚",
+      "敏感词\"",
+      "\"添加成功",
+      "\"删除成功",
+
+      "未查询到敏感词\"",
+      "\""
+    ]
+  },
+  "Syscall": {
+    "syscall":["sendg","sendp" ,"off","on","cmd",
+               "clear","read" ,"api" ],
+    "funcname": ["sgm","spm","dgm","dpm","upi",
+                 "ugi","upa","uga","sgn","rgm",
+                 "ban","ban_a","ugf","like","gda"],
+    "mark": "#",
+    "allmark": "all",
+    "privatemark": "p",
+    "warningmsg": [
+      "消息发送失败",
+      "消息发送成功",
+      "该功能未存在于已有功能列表中",
+      "开启功能失败",
+      "开启功能成功",
+
+      "关闭功能成功",
+      "参数错误，清屏失败",
+      "已清理Res条消息",
+      "参数列表错误",
+      "JSON parse success",
+
+      "未找到该API"
+    ]
+  },
+  "Undo": {
+    "eventlist": [ "撤回", "查看撤回" ],
+    "orderlist": [ "撤回", "查看撤回" ],
+    "warningmsg": [
+      "未查询到该条信息",
+      "读取日志文件失败，请联系机器人管理员",
+      "撤回消息成功",
+      "请输入以当前指令信息为0点向上操作信息位置（第x条，仅输入数字），包含机器人消息"
+    ]
+  },
+  "OtherFunc": {
+    "eventlist": ["加密","解密"],
+    "orderlist": ["sleep","赞我","加密","解密"],
+    "warningmsg": [
+      "您已开启金质睡眠服务，8小时后自动解除禁言",
+      "给你10个赞，记得回赞我哦",
+      "赶紧滚，别搞事，今天已经赞过你了",
+      "请发送Base64密文",
+      "请发送需要使用Base64加密的信息",
+
+      "解密完成，明文为：\n",
+      "加密完成，密文为：\n"
+    ]
+  },
+  "Ban": {
+    "eventlist": ["警告","惩罚","打入冷宫","释放","处死"],
+    "orderlist": [ "警告", "惩罚", "打入冷宫", "释放", "处死", 
+                   "-全场哗然-","-满坐寂然-","-大赦天下-"],
+    "warningmsg": [
+      "禁言列表添加失败，请联系机器人管理员",
+      "胆敢越权行事，自作孽不可活",
+      "所有人已被释放",
+      "君令臣死，臣不得不死，各位保重",
+      "已被处死",
+
+      "你已被",
+      "胆敢以下犯上，自作孽不可活",
+      "本是同根生，相煎何太急",
+      "神经病，这回让你玩个爽",
+      "对",
+
+      "的处理："
+    ]
+  },
+  "VoteFunc": {
+    "orderlist": [ "赞成", "反对" ],
+    "prefix": "__Vote__",
+    "warningmsg": [
+      "你发起了“",
+      "”的投票\n已自动为你投赞成票",
+      "当前投票事件：\n",
+      "\n赞成：1\n反对：0\n剩余投票时间：300秒",
+      "时间已到，因赞成票数超过半数\n赞成:",
+
+      "\n反对:",
+      "\n已执行",
+      "时间已到，因赞成票数未超过半数\n赞成:",
+      "\n取消执行",
+      "当前投票被",
+
+      "管理员",
+      "群主",
+      "一票",
+      "通过了",
+      "否决了",
+
+      "投票失败，请联系机器人管理员",
+      "已为你投",
+      "票",
+      "赞成：",
+      "反对：",
+
+      "剩余投票时间：",
+      "秒",
+      "别搞事，赶紧滚，你已经投过票了"
+    ]
+  },
+  "Welcome": {
+    "eventlist": [ "设置入群提醒" ],
+    "orderlist": [ "设置入群提醒", "删除入群提醒", "查看入群提醒" ],
+    "warningmsg": [
+      "请发送要设置的入群提醒信息",
+      "入群提醒信息已成功删除",
+      "该群暂未设置入群提醒信息",
+      "入群信息文件写入失败，请联系机器人管理员",
+      "已成功设置入群提醒信息"
+    ]
+  },
+  "Gachas": {
+    "eventlist": [ "Gacha", "Gachas" ],
+    "orderlist": [ "Gacha", "Gachas" ],
+    "warningmsg": [
+      "卡池数据读取失败 请稍后重试",
+      "系统指令集故障，请联系管理员",
+      "抽卡系统文件打开失败",
+      "结果生成失败 请联系管理员检查Position文件",
+      "暂无开放卡池",
+
+      "系统文件创建失败，请稍后重试，若此问题重复出现，请联系机器人管理员",
+      "创建数据失败，请稍后重试，若此问题重复出现，请联系机器人管理员",
+      "不足\n当前剩余",
+      "请选择你想抽取的卡池",
+      "********************\n注：放弃不退还",
+
+      "\n十(一)连消耗",
+      "\n单抽消耗",
+      "此次消费",
+      "已扣除\n扣除后剩余",
+      "\n********************\n",
+
+      "暂无开放游戏数据",
+      "请选择想要抽取的游戏"
+    ],
+    "spexp": ".Sp",
+    "outpicexp": ".png",
+    "backpicpre": "Back",
+    "voicefile": [ "Select_Begin.mp3", "Not_Get_5.mp3", "Get_5.mp3" ]
+  },
+  "SearchImage": {
+    "eventlist": [ "搜图", "搜番", "Gif表情", "算车吗", "降质打击" ],
+    "orderlist": [ "搜图", "搜番", "Gif表情", "BTGKD", "算车吗", 
+                   "降质打击" ],
+    "warningmsg": [
+      "未在消息中过滤出图片\n请发送一张需查找的图片",
+      "获取图片文件失败",
+      "上传文件失败\n",
+      "获取网站数据失败\n",
+      "未找到结果\n",
+
+      "[下载预览图失败]\n",
+      "porn:",
+      "请发送要制作的Gif表情内容\n参考模板请放弃当前操作后使用\"help Gif表情\"命令查看",
+      "未找到该表情包模板，请检查模板名称是否正确",
+      "表情生成失败\n",
+
+      "表情获取失败",
+      "可能的资源链(不保证准确或可用):\n",
+      "减速前porn:",
+      "事故多发地段 请小心驾驶\n",
+      "强制经过减速区：\n",
+
+      "神州行 我看行\n",
+      "处理完成：\n"
+    ],
+    "url": {
+      "a2d": [
+        "https://ascii2d.net/search/file/",
+        "https://ascii2d.net/search/color/",
+        "https://ascii2d.net/search/bovw/",
+        "https://ascii2d.net/"
+      ],
+      "snao": [
+        "https://saucenao.com/search.php",
+        "https://img"
+      ],
+      "tracemoe": [
+        "https://media.trace.moe/image/",
+        "https://trace.moe/api/search"
+      ],
+      "xuty": [
+        "https://sorry.xuty.tk"
+      ],
+      "nyaa": [
+        "https://nyaa.si/?f=0&c=0_0&q=",
+        "https://sukebei.nyaa.si/?f=0&c=0_0&q=",
+        "magnet:?"
+      ]
+    },
+    "webexp": ".webget",
+    "getimgexp": ".jpg",
+    "leglename": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-'[]",
+    "imgexp": [".jpg",".jpeg",".png",".webp",".bmp",
+	             ".gif",".ico",".tif",".tga"],
+    "timenamedexp": ".img",
+    "gifcutexp": "_1.img.jpg",
+    "s_mark": "<r+>",
+    "proxy": {
+      "a2d": true,
+      "snao": true,
+      "xuty": true,
+      "tracemoe": true,
+      "nyaa": true,
+      "youtu": false,
+      "xlz": false,
+      "address": "127.0.0.1:7890"
+    }
+  },
+  "Help": {
+    "orderlist": [ "help", "listall" ],
+    "warningmsg": [
+      "该功能未存在于功能列表中",
+      "*****该功能未在此群开放 如需要请管理员使用syscall开启*****\n",
+      "help Opt:返回名为\"Opt\"的功能帮助\n",
+      "此群当前已开放功能:\n",
+      "当前全部已有功能:\n",
+
+      "\n*****若要查看全部功能 请使用listall命令查看*****"
+    ],
+    "sepmark": [ "[", "]" ]
+  },
+  "Music": {
+    "eventlist": [ "点歌" ],
+    "orderlist": [ "点歌" ],
+    "warningmsg": [
+      "现有歌单如下 点歌请使用命令“点歌 完整已有歌曲名(带后缀)”\n"
+    ]
+  },
+  "SP": {
+    "orderlist": [ "__传教__" ],
+    "warningmsg": [
+      "暂无教义"
+    ],
+    "ADPATH": "E:\\Robot Data\\ADS.txt",
+    "IMGPRE": "%IMG%",
+    "IMGEND": "%/IMG%",
+    "RECPRE": "%REC%",
+    "RECEND": "%/REC%"
+  }, 
+  
+  "optexp": ".txt",
+
+    "BasicWarningMsg": [
+      "系统文件创建失败，请重新键入命令",
+      "你无权进行该操作",
+      "就算是我，也没有权限操作",
+      "文件路径错误",
+      "当前活动已终止",
+
+      "您输入的指令不正确，请重新输入，或使用\"",
+      "\"命令结束当前活动",
+      "JSON文件读取失败",
+      "当前已存在投票事件",
+      "请@处置对象",
+
+      "当前不存在投票事件"
+    ],
+
+    "giveuporder": "放弃"
+  }
